@@ -1,0 +1,33 @@
+{
+    "experiment_group": "Sample Experiments",
+    "experiments": [
+        {
+            "dataset": "IamLinesDataset",
+            "model": "LineModelCtc",
+            "network": "line_lstm_ctc",
+            "network_args": {
+                "window_width": 16,
+                "window_stride": 8
+            },
+            "train_args": {
+                "epochs": 80,
+                "batch_size": 256,
+                "username": "gojira"
+            }
+        },
+        {
+            "dataset": "IamLinesDataset",
+            "model": "LineModelCtc",
+            "network_args": {
+                "window_width": 16,
+                "window_stride": 8
+            },
+            "network": "line_lstm_ctc",
+            "train_args": {
+                "epochs": 80,
+                "batch_size": 256,
+                "username": "gojira"
+            }
+        }
+    ]
+}
